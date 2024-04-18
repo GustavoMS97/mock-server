@@ -1,0 +1,36 @@
+{
+  "name": "mock-server",
+  "version": "0.1.0",
+  "description": "mock server to test integrations without it being a pain in the a** when it's validated in the other end",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GustavoMS97/mock-server.git"
+  },
+  "keywords": [
+    "mock",
+    "server",
+    "integration",
+    "node",
+    "express",
+    "JavaScript"
+  ],
+  "author": "Gustavo Santos",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/GustavoMS97/mock-server/issues"
+  },
+  "homepage": "https://github.com/GustavoMS97/mock-server#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.0"
+  }
+}
