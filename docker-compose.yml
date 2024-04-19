@@ -1,0 +1,13 @@
+services:
+  mock_server:
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      PORT: 3000
+    networks:
+      - client-api_default
+
+networks:
+  client-api_default: #Connecting into an external network, to be able to use this service within another docker service.
+    external: true
